@@ -31,6 +31,7 @@ init = tf.initialize_all_variables()
 sess = tf.Session()
 sess.run(init)
 
+
 #plot the real data
 fig = plt.figure()
 ax = fig.add_subplot(1, 1, 1)
